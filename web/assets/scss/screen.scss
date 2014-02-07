@@ -1,0 +1,117 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/css3/border-radius";
+@import "colors";
+@import "../../vendor/foundation/scss/foundation/functions";
+@import "../../vendor/foundation/scss/foundation/components/global";
+
+body {
+    background: #FFF;
+    font-family: 'Exo 2', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.topline {
+    background: $brand;
+    height: 24px;
+}
+
+header {
+    background: $header-background;
+    h1, h4 {
+        color: $brand-text;
+    }
+    h4 {
+        text-transform: uppercase;
+        .sub {
+            font-size: convert-to-rem(14px);
+            color: desaturate(lighten($brand-text, 20%), 50%);
+            @media #{$portrait} {
+                display: block;
+            }
+        }
+    }
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+    padding: 20px 0;
+    margin-bottom: 2em;
+}
+
+.contact {
+    font-weight: 300;
+    a.icon {
+        text-align: right;
+        padding-right: 42px;
+        display: block;
+        height: 32px + 8px;
+        line-height: 32px + 8px;
+        background-repeat: no-repeat;
+        background-position: right 50%;
+        &:hover {
+            text-decoration: underline;
+        }
+        &.twitter {
+            background-image: url(../img/mono/twitter.png);
+            &:hover {
+                background-image: url(../img/twitter.png);
+            }
+        }
+        &.email {
+            background-image: url(../img/mono/email.png);
+            &:hover {
+                background-image: url(../img/email.png);
+            }
+        }
+        &.github {
+            background-image: url(../img/mono/github.png);
+            &:hover {
+                background-image: url(../img/github.png);
+            }
+        }
+        &.blog {
+            background-image: url(../img/mono/feed.png);
+            &:hover {
+                background-image: url(../img/feed.png);
+            }
+        }
+    }
+}
+
+#links {
+    a {
+        color: #FFF;
+        line-height: convert-to-rem(48px);
+        &:hover {
+            text-decoration: underline;
+            background: #42b7f4;
+        }
+    }
+}
+
+#content {
+    margin-top: 1em;
+    .left-column, .right-column {
+        background: #FFF;
+    }
+}
+
+.job .date, .skill .level {
+    font-weight: 300;
+    display: inline-block;
+    padding: 2px;
+    background: #378fc2;
+    color: #FFF;
+    font-size: rem-calc(12);
+    @include border-radius(4px, 4px);
+}

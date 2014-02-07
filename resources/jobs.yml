@@ -1,0 +1,37 @@
+-
+  company: Beeldspraak
+  company_url: http://beeldspraak.com
+  title: Developer
+  period: 2008 - present
+  description: |
+    At Beeldspraak I started out as a part time junior PHP developer. I started out working in simpler sites,
+    mainly with the CMS build by Beeldspraak. Within a few months I got to work on the e-commerce platform we were
+    building for a big client. Part of that project was a import/export with there SAP solution with IDocs files.
+
+    In that same project we came in touch with symfony, for me my first framework and in 2010 we went to SymfonyLive.
+    In 2011 we started working with Symfony2 (in the Public Release fase) and that's when I learned a lot about abstraction
+    and decoupling. With that project we also started using <a href="http://capistranorb.com/">Capistrano</a>, a
+    deployment tool written in Ruby.
+
+    Last year we started a project with <a href="https://github.com/symfony-cmf">Symfony CMF</a> and contributed to the
+    project. We attended a mini-conference/hackday with a part of the CMF team in Zürich, an experience probably won't
+    forget.
+
+    At Beeldspraak I also came in touch with Agile and Scrum development. But unfortunatly we didn't have large enough
+    projects to fill multiple sprints. We almost always had multiple projets within the same week, and a lot of projects
+    didn't even took a week to build.
+-
+  company: eRunner
+  company_url: http://www.erunner.nl/
+  title: Developer
+  period: 2007-2008
+  description: |
+    eRunner was my first actual programming job, I worked part time on various projects. It wasn't a job where I learned
+    a lot, we didn't use any PHP frameworks and code quality wasn't the main priority (This changed a lot since back then).
+-
+  company: Freelance
+  title: Webdesigner
+  period: a long time ago
+  description: |
+    Since I started programming I build several websites for friends and family, some even for free. I even designed some
+    sites, but I'm sure that's not my forte...

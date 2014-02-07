@@ -1,0 +1,147 @@
+/* Welcome to Compass. In this file you should write your main styles. (or centralize your imports) Import this file using the following HTML or equivalent: <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 293, ../../vendor/foundation/scss/foundation/components/_global.scss */
+meta.foundation-mq-small { font-family: "/only screen and (max-width: 40em)/"; width: 0em; }
+
+/* line 298, ../../vendor/foundation/scss/foundation/components/_global.scss */
+meta.foundation-mq-medium { font-family: "/only screen and (min-width:40.063em)/"; width: 40.063em; }
+
+/* line 303, ../../vendor/foundation/scss/foundation/components/_global.scss */
+meta.foundation-mq-large { font-family: "/only screen and (min-width:64.063em)/"; width: 64.063em; }
+
+/* line 308, ../../vendor/foundation/scss/foundation/components/_global.scss */
+meta.foundation-mq-xlarge { font-family: "/only screen and (min-width:90.063em)/"; width: 90.063em; }
+
+/* line 313, ../../vendor/foundation/scss/foundation/components/_global.scss */
+meta.foundation-mq-xxlarge { font-family: "/only screen and (min-width:120.063em)/"; width: 120.063em; }
+
+/* line 323, ../../vendor/foundation/scss/foundation/components/_global.scss */
+*, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* line 328, ../../vendor/foundation/scss/foundation/components/_global.scss */
+html, body { font-size: 100%; }
+
+/* line 331, ../../vendor/foundation/scss/foundation/components/_global.scss */
+body { background: white; color: #222222; padding: 0; margin: 0; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: normal; font-style: normal; line-height: 1; position: relative; cursor: default; }
+
+/* line 344, ../../vendor/foundation/scss/foundation/components/_global.scss */
+a:hover { cursor: pointer; }
+
+/* line 349, ../../vendor/foundation/scss/foundation/components/_global.scss */
+img, object, embed { max-width: 100%; height: auto; }
+
+/* line 352, ../../vendor/foundation/scss/foundation/components/_global.scss */
+object, embed { height: 100%; }
+
+/* line 353, ../../vendor/foundation/scss/foundation/components/_global.scss */
+img { -ms-interpolation-mode: bicubic; }
+
+/* line 359, ../../vendor/foundation/scss/foundation/components/_global.scss */
+#map_canvas img, #map_canvas embed, #map_canvas object, .map_canvas img, .map_canvas embed, .map_canvas object { max-width: none !important; }
+
+/* line 364, ../../vendor/foundation/scss/foundation/components/_global.scss */
+.left { float: left !important; }
+
+/* line 365, ../../vendor/foundation/scss/foundation/components/_global.scss */
+.right { float: right !important; }
+
+/* line 366, ../../vendor/foundation/scss/foundation/components/_global.scss */
+.clearfix { *zoom: 1; }
+/* line 159, ../../vendor/foundation/scss/foundation/components/_global.scss */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+/* line 160, ../../vendor/foundation/scss/foundation/components/_global.scss */
+.clearfix:after { clear: both; }
+
+/* line 367, ../../vendor/foundation/scss/foundation/components/_global.scss */
+.text-left { text-align: left !important; }
+
+/* line 368, ../../vendor/foundation/scss/foundation/components/_global.scss */
+.text-right { text-align: right !important; }
+
+/* line 369, ../../vendor/foundation/scss/foundation/components/_global.scss */
+.text-center { text-align: center !important; }
+
+/* line 370, ../../vendor/foundation/scss/foundation/components/_global.scss */
+.text-justify { text-align: justify !important; }
+
+/* line 371, ../../vendor/foundation/scss/foundation/components/_global.scss */
+.hide { display: none; }
+
+/* line 373, ../../vendor/foundation/scss/foundation/components/_global.scss */
+.start { float: left !important; }
+
+/* line 374, ../../vendor/foundation/scss/foundation/components/_global.scss */
+.end { float: right !important; }
+
+/* line 375, ../../vendor/foundation/scss/foundation/components/_global.scss */
+.text-start { text-align: left !important; }
+
+/* line 376, ../../vendor/foundation/scss/foundation/components/_global.scss */
+.text-end { text-align: right !important; }
+
+/* line 382, ../../vendor/foundation/scss/foundation/components/_global.scss */
+.antialiased { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+/* line 385, ../../vendor/foundation/scss/foundation/components/_global.scss */
+img { display: inline-block; vertical-align: middle; }
+
+/* line 395, ../../vendor/foundation/scss/foundation/components/_global.scss */
+textarea { height: auto; min-height: 50px; }
+
+/* line 398, ../../vendor/foundation/scss/foundation/components/_global.scss */
+select { width: 100%; }
+
+/* line 11, ../scss/screen.scss */
+body { background: #FFF; font-family: 'Exo 2', sans-serif; }
+
+/* line 20, ../scss/screen.scss */
+ul, ol { list-style: none; }
+
+/* line 24, ../scss/screen.scss */
+.topline { background: #285281; height: 24px; }
+
+/* line 29, ../scss/screen.scss */
+header { background: #efefef; -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75); -moz-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75); box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75); padding: 20px 0; margin-bottom: 2em; }
+/* line 31, ../scss/screen.scss */
+header h1, header h4 { color: #285281; }
+/* line 34, ../scss/screen.scss */
+header h4 { text-transform: uppercase; }
+/* line 36, ../scss/screen.scss */
+header h4 .sub { font-size: 0.875rem; color: #84878b; }
+@media only screen and (orientation: portrait) { /* line 36, ../scss/screen.scss */
+  header h4 .sub { display: block; } }
+
+/* line 51, ../scss/screen.scss */
+.contact { font-weight: 300; }
+/* line 53, ../scss/screen.scss */
+.contact a.icon { text-align: right; padding-right: 42px; display: block; height: 40px; line-height: 40px; background-repeat: no-repeat; background-position: right 50%; }
+/* line 61, ../scss/screen.scss */
+.contact a.icon:hover { text-decoration: underline; }
+/* line 64, ../scss/screen.scss */
+.contact a.icon.twitter { background-image: url(../img/mono/twitter.png); }
+/* line 66, ../scss/screen.scss */
+.contact a.icon.twitter:hover { background-image: url(../img/twitter.png); }
+/* line 70, ../scss/screen.scss */
+.contact a.icon.email { background-image: url(../img/mono/email.png); }
+/* line 72, ../scss/screen.scss */
+.contact a.icon.email:hover { background-image: url(../img/email.png); }
+/* line 76, ../scss/screen.scss */
+.contact a.icon.github { background-image: url(../img/mono/github.png); }
+/* line 78, ../scss/screen.scss */
+.contact a.icon.github:hover { background-image: url(../img/github.png); }
+/* line 82, ../scss/screen.scss */
+.contact a.icon.blog { background-image: url(../img/mono/feed.png); }
+/* line 84, ../scss/screen.scss */
+.contact a.icon.blog:hover { background-image: url(../img/feed.png); }
+
+/* line 92, ../scss/screen.scss */
+#links a { color: #FFF; line-height: 3rem; }
+/* line 95, ../scss/screen.scss */
+#links a:hover { text-decoration: underline; background: #42b7f4; }
+
+/* line 102, ../scss/screen.scss */
+#content { margin-top: 1em; }
+/* line 104, ../scss/screen.scss */
+#content .left-column, #content .right-column { background: #FFF; }
+
+/* line 109, ../scss/screen.scss */
+.job .date, .skill .level { font-weight: 300; display: inline-block; padding: 2px; background: #378fc2; color: #FFF; font-size: 0.75rem; -webkit-border-radius: 4px 4px; -moz-border-radius: 4px / 4px; border-radius: 4px / 4px; }

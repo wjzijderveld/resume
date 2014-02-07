@@ -1,0 +1,23 @@
+{
+  "name": "wjzijderveld/cv",
+  "version": "0.0.0",
+  "authors": [
+    "Willem-Jan Zijderveld <wjzijderveld@gmail.com>"
+  ],
+  "description": "My personal CV",
+  "main": "web/index.php",
+  "license": "MIT",
+  "homepage": "http://cv.willem-jan.net",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.0"
+  }
+}
