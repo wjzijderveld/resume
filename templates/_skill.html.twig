@@ -1,8 +1,9 @@
 <div class="skill">
-    <h5>
+    <h4>
         {% if skill.skill_url is defined %}<a href="{{ skill.skill_url }}">{% endif %}
             {{ skill.title }}
         {% if skill.skill_url is defined %}</a>{% endif %}
-        &nbsp;-&nbsp;<span class="level">{{ skill.level }}</span></h5>
+        &nbsp;-&nbsp;<span class="level">{{ skill.level }}</span>
+    </h4>
     <div class="description">{{ skill.description|paragraph }}</div>
 </div>

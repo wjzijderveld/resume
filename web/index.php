@@ -38,9 +38,18 @@ try {
 }
 
 try {
+    $educations = Yaml\Yaml::parse(file_get_contents(__DIR__ . '/../resources/education.yml'));
+} catch (Yaml\Exception\ParseException $e) {
+    if ($logger instanceOf \Psr\Log\LoggerInterface) {
+        $logger->critical('Failed to parse the skills.yml', array($e->getMessage()));
+    }
+}
+
+try {
     echo $twig->render('layout.html.twig', array(
-        'jobs'  => $jobs,
-        'skills'=> $skills,
+        'jobs'          => $jobs,
+        'skills'        => $skills,
+        'educations'    => $educations,
     ));
 } catch (\Exception $e) {
     echo <<<HTML

@@ -1,9 +1,10 @@
 <div class="job">
-    <h5>
+    <h4>
         {% if job.company_url is defined %}<a href="{{ job.company_url }}">{% endif %}
             {{ job.company }}
         {% if job.company_url is defined %}</a>{% endif %}
-        &nbsp;-&nbsp;<span class="date">{{ job.period }}</span></h5>
+        &nbsp;-&nbsp;<span class="date">{{ job.period }}</span>
+    </h4>
     <strong>{{ job.title }}</strong>
     <div class="description">{{ job.description|paragraph }}</div>
 </div>

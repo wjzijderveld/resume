@@ -144,4 +144,11 @@ header h4 .sub { font-size: 0.875rem; color: #84878b; }
 #content .left-column, #content .right-column { background: #FFF; }
 
 /* line 112, ../scss/screen.scss */
-.job .date, .skill .level { font-weight: 300; display: inline-block; padding: 2px; background: #378fc2; color: #FFF; font-size: 0.75rem; -webkit-border-radius: 4px 4px; -moz-border-radius: 4px / 4px; border-radius: 4px / 4px; }
+.job .date, .skill .level, .education .info { font-weight: 300; display: inline-block; padding: 4px 6px; margin: 0 4px; background: #378fc2; color: #FFF; font-size: 0.75rem; letter-spacing: 2px; -webkit-border-radius: 4px 4px; -moz-border-radius: 4px / 4px; border-radius: 4px / 4px; }
+
+/* line 128, ../scss/screen.scss */
+.education .columns.img { padding-right: 0; }
+/* line 131, ../scss/screen.scss */
+.education img { height: 40px; }
+/* line 134, ../scss/screen.scss */
+.education .info { background: #ffb243; color: #000; }

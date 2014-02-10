@@ -58,6 +58,17 @@
                 {% include '_skill.html.twig' with { 'skill' : skill } %}
             {% endspaceless %}{% endfor %}
         </div>
+
+        <div class="small-12 large-4 columns text-right">
+            <h2>Education</h2>
+        </div>
+        <div class="small-12 large-8 columns">
+            {% for education in educations %}{% spaceless %}
+                {% include '_education.html.twig' with { 'education' : education } %}
+                {% set education = null %}
+            {% endspaceless %}{% endfor %}
+        </div>
+
     </div>
 
 </section>
