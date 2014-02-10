@@ -4,6 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="desciption" content="Curriculum Vitae of Willem-Jan Zijderveld, PHP Developer and OSS addict">
+    <meta charset="UTF-8" />
     <link href='http://fonts.googleapis.com/css?family=Exo+2:400,700,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/assets/css/vendor.css" />
     <link rel="stylesheet" href="/assets/css/screen.css" />
@@ -37,12 +38,7 @@
 
     <div class="row">
 
-        <div class="small-12 large-4 columns text-right">
-            <h2>Profile</h2>
-        </div>
-        <div class="small-12 large-8 columns">
-            {% include '_profile.html.twig' %}
-        </div>
+        {% include '_profile.html.twig' %}
 
         <div class="small-12 large-4 columns text-right">
             <h2>Work experience</h2>
