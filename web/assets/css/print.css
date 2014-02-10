@@ -1,0 +1,11 @@
+/* line 1, ../scss/print.scss */
+.text-right { text-align: left !important; }
+
+/* line 5, ../scss/print.scss */
+.contact { text-indent: 0; }
+/* line 7, ../scss/print.scss */
+.contact li { display: block; height: 1.25em; }
+/* line 11, ../scss/print.scss */
+.contact a { display: inline !important; text-align: left !important; }
+/* line 14, ../scss/print.scss */
+.contact a:after { content: none !important; }

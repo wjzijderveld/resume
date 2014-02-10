@@ -111,37 +111,37 @@ header h4 .sub { font-size: 0.875rem; color: #84878b; }
   header h4 .sub { display: block; } }
 
 /* line 51, ../scss/screen.scss */
-.contact { font-weight: 300; }
-/* line 53, ../scss/screen.scss */
-.contact a.icon { text-align: right; padding-right: 42px; display: block; height: 40px; line-height: 40px; background-repeat: no-repeat; background-position: right 50%; }
-/* line 61, ../scss/screen.scss */
-.contact a.icon:hover { text-decoration: underline; }
+.contact { font-weight: 300; text-indent: -99999px; line-height: 1; }
+/* line 55, ../scss/screen.scss */
+.contact a.icon { text-align: right; text-indent: 0; padding-right: 42px; display: block; height: 32px; line-height: 32px; background-repeat: no-repeat; background-position: right 50%; }
 /* line 64, ../scss/screen.scss */
+.contact a.icon:hover { text-decoration: underline; }
+/* line 67, ../scss/screen.scss */
 .contact a.icon.twitter { background-image: url(../img/mono/twitter.png); }
-/* line 66, ../scss/screen.scss */
+/* line 69, ../scss/screen.scss */
 .contact a.icon.twitter:hover { background-image: url(../img/twitter.png); }
-/* line 70, ../scss/screen.scss */
+/* line 73, ../scss/screen.scss */
 .contact a.icon.email { background-image: url(../img/mono/email.png); }
-/* line 72, ../scss/screen.scss */
+/* line 75, ../scss/screen.scss */
 .contact a.icon.email:hover { background-image: url(../img/email.png); }
-/* line 76, ../scss/screen.scss */
+/* line 79, ../scss/screen.scss */
 .contact a.icon.github { background-image: url(../img/mono/github.png); }
-/* line 78, ../scss/screen.scss */
+/* line 81, ../scss/screen.scss */
 .contact a.icon.github:hover { background-image: url(../img/github.png); }
-/* line 82, ../scss/screen.scss */
+/* line 85, ../scss/screen.scss */
 .contact a.icon.blog { background-image: url(../img/mono/feed.png); }
-/* line 84, ../scss/screen.scss */
+/* line 87, ../scss/screen.scss */
 .contact a.icon.blog:hover { background-image: url(../img/feed.png); }
 
-/* line 92, ../scss/screen.scss */
-#links a { color: #FFF; line-height: 3rem; }
 /* line 95, ../scss/screen.scss */
+#links a { color: #FFF; line-height: 3rem; }
+/* line 98, ../scss/screen.scss */
 #links a:hover { text-decoration: underline; background: #42b7f4; }
 
-/* line 102, ../scss/screen.scss */
+/* line 105, ../scss/screen.scss */
 #content { margin-top: 1em; }
-/* line 104, ../scss/screen.scss */
+/* line 107, ../scss/screen.scss */
 #content .left-column, #content .right-column { background: #FFF; }
 
-/* line 109, ../scss/screen.scss */
+/* line 112, ../scss/screen.scss */
 .job .date, .skill .level { font-weight: 300; display: inline-block; padding: 2px; background: #378fc2; color: #FFF; font-size: 0.75rem; -webkit-border-radius: 4px 4px; -moz-border-radius: 4px / 4px; border-radius: 4px / 4px; }

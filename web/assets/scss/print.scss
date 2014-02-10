@@ -1,0 +1,18 @@
+.text-right {
+    text-align: left !important;
+}
+
+.contact {
+    text-indent: 0;
+    li {
+        display: block;
+        height: 1.25em;
+    }
+    a {
+        display: inline !important;
+        text-align: left !important;
+        &:after {
+            content: none !important;
+        }
+    }
+}

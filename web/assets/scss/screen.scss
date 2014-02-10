@@ -4,7 +4,7 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/css3/border-radius";
-@import "colors";
+@import "variables";
 @import "../../vendor/foundation/scss/foundation/functions";
 @import "../../vendor/foundation/scss/foundation/components/global";
 
@@ -50,12 +50,15 @@ header {
 
 .contact {
     font-weight: 300;
+    text-indent: -99999px;
+    line-height: 1;
     a.icon {
         text-align: right;
+        text-indent: 0;
         padding-right: 42px;
         display: block;
-        height: 32px + 8px;
-        line-height: 32px + 8px;
+        height: 32px;
+        line-height: 32px;
         background-repeat: no-repeat;
         background-position: right 50%;
         &:hover {

@@ -11,14 +11,15 @@
   level: advanced
   description: |
     Probably a skill I learned because of my own errors, but I got told that I'm pretty fast in tracking down bugs.
-    I also use tools like XDebug with conditional breakpoints to quickly find the source of the problem.
+    I also love using tools like XDebug with conditional breakpoints to quickly find the source of a problem.
 -
   title: Git
   skill_url: http://git-scm.com
   level: intermediate
   description: |
     Git is the version control tool I prefer. Developing with your code in Git makes life that much easier. I wouldn't
-    call myself an expert yet, but I definitly know my way around.
+    call myself an expert yet, but I definitly know my way around. I can also work with SVN and even CVS, but please don't
+    ask me too.
 -
   title: PHPUnit
   level: intermediate
