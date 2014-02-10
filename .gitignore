@@ -1,3 +1,4 @@
 .sass-cache
 /logs/*
 vendor
+config/settings.yml

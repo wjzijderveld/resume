@@ -20,7 +20,7 @@ $twig->addFilter(new Twig_SimpleFilter('paragraph', function($text) {
     return '<p>' . preg_replace('/\n(\s*\n)/', '</p><p>', $text) . '</p>';
 }, array('is_safe' => array('html'))));
 
-$jobs = $skills = array();
+$jobs = $skills = $educations = $settings = array();
 try {
     $jobs = Yaml\Yaml::parse(file_get_contents(__DIR__ . '/../resources/jobs.yml'));
 } catch (Yaml\Exception\ParseException $e) {
@@ -41,7 +41,15 @@ try {
     $educations = Yaml\Yaml::parse(file_get_contents(__DIR__ . '/../resources/education.yml'));
 } catch (Yaml\Exception\ParseException $e) {
     if ($logger instanceOf \Psr\Log\LoggerInterface) {
-        $logger->critical('Failed to parse the skills.yml', array($e->getMessage()));
+        $logger->critical('Failed to parse the education.yml', array($e->getMessage()));
+    }
+}
+
+try {
+    $settings = Yaml\Yaml::parse(file_get_contents(__DIR__ . '/../config/settings.yml'));
+} catch (\Yaml\Exception\ParseException $e) {
+    if ($logger instanceOf \Psr\Log\LoggerInterface) {
+        $logger->critical('Failed to parse the settings.yml', array($e->getMessage()));
     }
 }
 
@@ -50,6 +58,7 @@ try {
         'jobs'          => $jobs,
         'skills'        => $skills,
         'educations'    => $educations,
+        'showAnalytics' => $settings['show_analytics'],
     ));
 } catch (\Exception $e) {
     echo <<<HTML
