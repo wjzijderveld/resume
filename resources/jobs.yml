@@ -1,8 +1,19 @@
+- company: Qandidate.com
+  company_url: http://qandidate.com
+  title: Software Engineer
+  period: 2014  - present
+  description: |
+    At Qandidate.com I ended up in a great team that helped me grow to the developer I'm now.
+
+    I got in touch with techniques I didn't know before, like Event Sourcing for example.
+    Those new techniques also got me into speaking, since then I spoke at multiple meetups and conferences.
+
+    At Qandidate.com we hae both used Kanban and Scrum. I prefer Kanban, but both have there strengths.
 -
   company: Beeldspraak
   company_url: http://beeldspraak.com
   title: Developer
-  period: 2009 - present
+  period: 2009 - 2014
   description: |
     At Beeldspraak I started out as a part time junior PHP developer. I started out working in simpler sites,
     mainly with the CMS build by Beeldspraak. Within a few months I got to work on the e-commerce platform we were
@@ -16,10 +27,6 @@
     Last year we started a project with <a href="https://github.com/symfony-cmf">Symfony CMF</a> and contributed to the
     project. We attended a mini-conference/hackday with a part of the CMF team in Zürich, an experience probably won't
     forget.
-
-    At Beeldspraak I also came in touch with Agile and Scrum development. But unfortunatly we didn't have large enough
-    projects to fill multiple sprints. We almost always had multiple projets within the same week, and a lot of projects
-    didn't even took a week to build.
 -
   company: eRunner
   company_url: http://www.erunner.nl/
