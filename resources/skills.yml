@@ -15,22 +15,30 @@
 -
   title: Git
   skill_url: http://git-scm.com
-  level: intermediate
+  level: advanced
   description: |
     Git is the version control tool I prefer. Developing with your code in Git makes life that much easier. I wouldn't
     call myself an expert yet, but I definitly know my way around. I can also work with SVN and even CVS, but please don't
     ask me too.
 -
   title: PHPUnit
-  level: intermediate
+  level: advanced
   description: |
     Using a test framework is pretty essential when using TDD. PHPUnit is a great choice with that.
 -
   title: Javascript
-  level: intermediate
+  level: advanced
   description: |
     Javascript is a very powerful language. I worked with a lot of libraries, but I still like to just
     write plain Javascript. Won't call myself an expert yet, but definitly know my way arround.
+- title: Scala
+  level: intermediate
+  description: |
+    Did a few courses involving on Coursera about functional programming and reactive programming.
+- title: Go
+  level: intermediate
+  description: |
+    I like Go as a language, so I tend to write small CLI scripts I need in Go.
 -
   title: Capistrano
   skill_url: http://capistranorb.com
@@ -53,7 +61,7 @@
 -
   title: ElasticSearch
   skill_url: http://elasticsearch.com
-  level: basic
+  level: intermediate
   description: |
     Used ElasticSearch a couple of times now with a basic setup. I really enjoyed how easy it is to setup and use.
     The possibilities are almost endless.

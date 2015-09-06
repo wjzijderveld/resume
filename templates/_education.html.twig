@@ -1,7 +1,7 @@
 <div class="education">
     <h5>
         {% if education.url is defined %}<a href="{{ education.url }}">{% endif %}
-            {{ education.title }} - <small>{{ education.date }}</small>
+            {{ education.title }} - <small>{{ education.date }}{% if not education.finished %} (unfinished){% endif %}</small>
         {% if education.url is defined %}</a>{% endif %}
     </h5>
 </div>
