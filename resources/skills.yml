@@ -31,11 +31,14 @@
   description: |
     Javascript is a very powerful language. I worked with a lot of libraries, but I still like to just
     write plain Javascript. Won't call myself an expert yet, but definitly know my way arround.
+
 - title: Scala
   level: intermediate
   description: |
     Did a few courses involving on Coursera about functional programming and reactive programming.
+
 - title: Go
+  skill_url: https://golang.org
   level: intermediate
   description: |
     I like Go as a language, so I tend to write small CLI scripts I need in Go.
