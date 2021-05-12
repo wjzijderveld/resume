@@ -18,6 +18,7 @@
     "tests"
   ],
   "dependencies": {
-    "foundation": "~5.0"
+    "foundation": "~5.0",
+    "lodash": "~4.17.21"
   }
 }
